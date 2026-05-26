@@ -1,0 +1,14 @@
+{
+  "name": "weather-command-center",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev src/main.js --local-protocol http --port 8787",
+    "deploy": "wrangler deploy src/main.js",
+    "test": "node --check src/main.js && node --check src/lib/weather.js && node --check src/lib/ai.js && node --check src/ui/app.js && node --check src/ui/template.js"
+  },
+  "devDependencies": {
+    "wrangler": "^4.22.0"
+  }
+}
