@@ -1,0 +1,15 @@
+{
+  "name": "weather-command-center",
+  "main": "src/main.js",
+  "compatibility_date": "2026-05-26",
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    "AI_DEFAULT_PROVIDER": "gemini",
+    "AI_DEFAULT_MODEL": "gemini-2.5-flash",
+    "AI_DIRECT_TIMEOUT_MS": "12000",
+    "PROXY_POLICY": "direct-first",
+    "PROXY_HOSTS": ""
+  }
+}
